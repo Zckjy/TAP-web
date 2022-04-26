@@ -1,4 +1,4 @@
-.container{
-    width: 75vh;
-    margin: 0 0;
+.body-img{
+	max-width: 100%;
+    height: auto;
 }
