@@ -1575,10 +1575,10 @@ p.lang a.active {
   color: #FFFFFF;
 }
 
-.success-message, .error-message {
+.success-message {
   color: #FFFFFF;
 }
-.success-message p, .error-message p {
+.success-message p {
   color: #FFFFFF !important;
 }
 .success-message .ion-checkmark-round, .error-message .ion-checkmark-round {
