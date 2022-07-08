@@ -1,43 +1,10 @@
-/*
-* MALIN - Perfect Coming Soon Template
-* Build Date: August 2015
-* Author: Madeon08
-* Copyright (C) 2015 Madeon08
-* This is a premium product available exclusively here : http://themeforest.net/user/Madeon08/portfolio
-*/
-/*  TABLE OF CONTENTS
-    ---------------------------
-    *. @Import & Reset
-    1. Generic styles
-    2. Loading
-    3. Navigation
-    4. Home part
-    5. Content part
-    6. Newsletter part
-        Annex. Mozaic Variant
-        '''''. Constellation Variant
-    7. Media Queries
-*/
-/* ------------------------------------- */
-/* *. @Import & Reset .................. */
-/* ------------------------------------- */
-/* http://bourbon.io/ Sass Mixin Library */
-/* custom CSS files */
 @import url(https://befrimon.github.io/TAP-web/assets/css/font-awesome.min.css);
 @import url(https://befrimon.github.io/TAP-web/assets/css/ionicons.min.css);
 @import url(https://befrimon.github.io/TAP-web/assets/css/bootstrap.min.css);
 @import url(https://befrimon.github.io/TAP-web/assets/css/animate.css);
 @import url(https://befrimon.github.io/TAP-web/assets/css/swipebox.css);
 @import url(https://befrimon.github.io/TAP-web/assets/css/vegas.css);
-/* Google Fonts */
-@import url("http://fonts.googleapis.com/css?family=Montserrat:400,700");
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700");
-@import url("http://fonts.googleapis.com/css?family=PT+Sans:400,700");
-/*
-* http://meyerweb.com/eric/tools/css/reset/ 
-* v2.0 | 20110126
-* License: none (public domain)
-*/
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -59,7 +26,6 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, main {
   display: block;
@@ -88,9 +54,6 @@ table {
   border-spacing: 0;
 }
 
-/* ------------------------------------- */
-/* 1. Generic styles ................... */
-/* ------------------------------------- */
 body {
   background: #2B2D35;
   font-family: "Open Sans", "Helvetica Neue", "Lucida Grande", Arial, Verdana, sans-serif;
@@ -447,9 +410,6 @@ p.lang a.active {
   color: white;
 }
 
-/* ------------------------------------- */
-/* 2. Loading .......................... */
-/* ------------------------------------- */
 .loading-part {
   position: fixed;
   background: #f2f3f7;
@@ -596,9 +556,6 @@ p.lang a.active {
   letter-spacing: 5px;
 }
 
-/* ------------------------------------- */
-/* 3. Navigation ....................... */
-/* ------------------------------------- */
 #navigation {
   position: fixed;
   z-index: 99;
@@ -843,9 +800,6 @@ p.lang a.active {
   border-color: #e63400;
 }
 
-/* ------------------------------------- */
-/* 4. Home part ........................ */
-/* ------------------------------------- */
 #home-part {
   position: fixed;
   top: 0;
@@ -863,8 +817,6 @@ p.lang a.active {
   margin: auto;
   margin-bottom: 10px;
 }
-
-/* ===== Text rotator ===== */
 .cd-words-wrapper {
   display: inline-block;
   position: relative;
@@ -1088,9 +1040,6 @@ p.lang a.active {
   transform: translateX(-20vw);
 }
 
-/* ------------------------------------- */
-/* 5. Content part ..................... */
-/* ------------------------------------- */
 #content-part {
   position: relative;
   background: #f2f3f7;
@@ -1249,7 +1198,7 @@ p.lang a.active {
 }
 
 .large-square {
-  background: url(https://befrimon.github.io/TAP-web/assets//img/big-square.jpg);
+  background: url(https://befrimon.github.io/TAP-web/assets/img/big-square.jpg);
   width: 100%;
   background-color: #2B2D35;
   background-repeat: no-repeat;
@@ -1297,7 +1246,7 @@ p.lang a.active {
 }
 
 .small-square {
-  background: url(https://befrimon.github.io/TAP-web/assets//img/small-square-1.jpg);
+  background: url(https://befrimon.github.io/TAP-web/assets/img/small-square-1.jpg);
   width: 100%;
   background-color: #2B2D35;
   background-repeat: no-repeat;
@@ -1339,13 +1288,13 @@ p.lang a.active {
   transform: scale(0.85);
 }
 .small-square.second {
-  background-image: url(https://befrimon.github.io/TAP-web/assets//img/small-square-2.jpg);
+  background-image: url(https://befrimon.github.io/TAP-web/assets/img/small-square-2.jpg);
 }
 .small-square.third {
-  background-image: url(https://befrimon.github.io/TAP-web/assets//img/small-square-3.jpg);
+  background-image: url(https://befrimon.github.io/TAP-web/assets/img/small-square-3.jpg);
 }
 .small-square.fourth {
-  background-image: url(https://befrimon.github.io/TAP-web/assets//img/small-square-4.jpg);
+  background-image: url(https://befrimon.github.io/TAP-web/assets/img/small-square-4.jpg);
 }
 
 .large-square .hover-info, .small-square .hover-info {
@@ -1401,9 +1350,6 @@ p.lang a.active {
   bottom: 15px;
 }
 
-/*  
- * Skin Gallery
- */
 #swipebox-overlay {
   background: rgba(10, 26, 36, 0.8);
   -webkit-transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -1464,7 +1410,6 @@ p.lang a.active {
   color: #FFFFFF;
 }
 
-/* ===== Services ===== */
 .service-item {
   margin-top: 50px;
 }
@@ -1478,8 +1423,6 @@ p.lang a.active {
   margin-bottom: 10px;
 }
 
-
-/* ===== Get in touch ===== */
 #contact-content {
   background: #20232D;
 }
@@ -1581,6 +1524,9 @@ p.lang a.active {
 .success-message p {
   color: #FFFFFF !important;
 }
+.success-message p {
+  color: #FF1D4D !important;
+}
 .success-message .ion-checkmark-round, .error-message .ion-checkmark-round {
   color: #27AE60;
 }
@@ -1589,9 +1535,6 @@ p.lang a.active {
   color: #FF1D4D;
 }
 
-/* ------------------------------------- */
-/* 6. Newsletter part .................. */
-/* ------------------------------------- */
 #newsletter-part {
   position: fixed;
   top: 0;
@@ -1762,9 +1705,6 @@ p.lang a.active {
   color: #27AE60;
 }
 
-/* ------------------------------------- */
-/* ANNEX. Mozaic Variant ............... */
-/* ------------------------------------- */
 #dotty-variant .opacity-03 {
   opacity: 1 !important;
 }
@@ -1775,9 +1715,6 @@ p.lang a.active {
   left: 0;
 }
 
-/* ------------------------------------- */
-/* ANNEX. Constellation Variant ........ */
-/* ------------------------------------- */
 #constellation {
   background: transparent;
   bottom: 0;
@@ -1790,10 +1727,6 @@ p.lang a.active {
   z-index: 0;
 }
 
-/* ------------------------------------- */
-/* 7. Media Queries .................... */
-/* ------------------------------------- */
-/* Large Devices, Wide Screens */
 @media only screen and (max-width: 1600px) {
   .item-title {
     padding: 0 20%;
@@ -1803,8 +1736,6 @@ p.lang a.active {
     width: 100% !important;
   }
 }
-/* Notebook devices */
-/* Medium Devices, Desktops */
 @media only screen and (max-width: 1024px) {
   body {
     position: relative !important;
@@ -1836,7 +1767,6 @@ p.lang a.active {
     left: 0 !important;
   }
 }
-/* Small Devices, Tablets */
 @media only screen and (max-width: 767px) {
   .loading-part .loader-part .loader-circle {
     top: calc(50% - 50px);
@@ -2002,10 +1932,6 @@ p.lang a.active {
     top: auto;
     bottom: 0;
   }
-
-  /*  
-   * Skin Gallery
-   */
   #swipebox-overlay {
     background: #0a1a24;
     -webkit-transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -2027,7 +1953,6 @@ p.lang a.active {
     min-height: 50px;
   }
 }
-/* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
   #navigation {
     background: #0a1a24;
@@ -2126,8 +2051,6 @@ p.lang a.active {
     transform: translateY(calc(-50% + 10px));
   }
 }
-/* Only for tablet in landscape mode */
-/* Only for phone in landscape mode */
 @media screen and (max-device-width: 667px) and (orientation: landscape) {
   #navigation {
     background: #0a1a24;
