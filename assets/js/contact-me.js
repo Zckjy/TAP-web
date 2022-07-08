@@ -8,7 +8,7 @@ $(document).ready(function() {
         var user_message    = $('textarea[name=message]').val();
        
         post_data = {'userName':user_name, 'userEmail':user_email, 'userSubject':user_subject, 'userMessage':user_message};
-        $.post('https://befrimon.github.io/TAP-web/php/contact-me.php', post_data, function(response){  
+        $.post('https://befrimon.github.io/TAP-web/assets/php/contact-me.php', post_data, function(response){  
             if(response.type == 'error') {
                 output = '<div class="error-message"><p>'+response.text+'</p></div>';
             } else {
