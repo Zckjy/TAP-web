@@ -1,29 +1,3 @@
-/*
-* MALIN - Perfect Coming Soon Template
-* Build Date: August 2015
-* Author: Madeon08
-* Copyright (C) 2015 Madeon08
-* This is a premium product available exclusively here : http://themeforest.net/user/Madeon08/portfolio
-*/
-
-/*  TABLE OF CONTENTS
-    ---------------------------
-    1. Loading / Opening
-    2. Fullscreen Div
-    3. Loader fadeIn
-    4. Scroll plugins
-    5. Scroll to anchor
-    6. Buttons / Menu interactions
-    7. Countdown
-    8. Newsletter
-    9. Swipebox Gallery
-   10. Map, Structure & Design
-*/
-
-/* ------------------------------------- */
-/* 1. Loading / Opening ................ */
-/* ------------------------------------- */
-
 $(window).load(function() {
 
     setTimeout(function() {

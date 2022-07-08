@@ -1,6 +1,3 @@
-/*
- * requestAnimationFrame pollyfill
- */
 if (!window.requestAnimationFrame) {
     window.requestAnimationFrame = (window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame || window.msRequestAnimationFrame || window.oRequestAnimationFrame || function (callback) {
         return window.setTimeout(callback, 1000 / 60);
@@ -8,36 +5,17 @@ if (!window.requestAnimationFrame) {
 }
 
 $(window).load(function() {
-
     setTimeout(function() {
-    
         var onMobile = false;
         if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) { onMobile = true; }
-        
         if( ( onMobile === false ) ) {
-           
-            // Init plugin
             $('#constellation').constellation({});
-            
-        } else {
-                
-                
-            }    
+        } else { 
+    }    
     }, 2000);
     
 });
-
-/*!
- * Mantis.js / jQuery / Zepto.js plugin for Constellation
- * @version 1.2.0
- * @author Acauã Montiel <contato@acauamontiel.com.br>
- */
-
 (function ($, window) {
-    /**
-     * Makes a nice constellation on canvas
-     * @constructor Constellation
-     */
     function Constellation (canvas, options) {
         var $canvas = $(canvas),
             context = canvas.getContext('2d'),
