@@ -19,7 +19,7 @@ $(document).ready(function() {
         //    $("#answer").hide().html(output).fadeIn();
         //}, 'json');
 
-        output = '<div class="success-message"><p>This function not ready yet</p></div>';
+        output = '<div class="error-message"><p>This function not ready yet</p></div>';
         $('#contact-form input').val('');
         $('#contact-form textarea').val('');
         $("#answer").hide().html(output).fadeIn();
